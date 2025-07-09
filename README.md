@@ -41,23 +41,20 @@ The **Bank Management and Simulation System** is a Java-based desktop applicatio
 Bank-Management-System/
 │
 ├── src/                      # All Java source files (GUI, logic, DB connection)
-│   ├── AccountCreation.java
-│   ├── Login.java
-│   ├── Withdraw.java
+│   ├── Signup.java
+│   ├── login.java
+│   ├── Withdrawl.java
 │   ├── Deposit.java
-│   ├── PinChange.java
-│   ├── BankStatement.java
+│   ├── Pin.java
+│   ├── mini.java             #  For last transaction statements
 │   ├── BalanceEnquiry.java
-│   └── Main.java
+│   └── main_class.java
+|   └── Con.java             # For establishing connection between database
 │
 ├── icon/                     # Icons and image assets
-│   ├── logo.png
-│   ├── background.jpg
+│   ├── bank.png
+│   ├── backbgjpg
 │   └── ...
-│
-├── database/                 # SQL scripts for table creation and initial data
-│   ├── bank_schema.sql
-│   └── sample_data.sql
 │
 └── README.md                 # Project documentation
 ```
