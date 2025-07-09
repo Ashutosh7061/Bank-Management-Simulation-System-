@@ -37,6 +37,7 @@ The **Bank Management and Simulation System** is a Java-based desktop applicatio
 
 ## 📁 Project Structure
 
+```text
 Bank-Management-System/
 │
 ├── src/                      # All Java source files (GUI, logic, DB connection)
@@ -54,9 +55,10 @@ Bank-Management-System/
 │   ├── background.jpg
 │   └── ...
 │
-├── database/                 # SQL scripts for table creation and data
+├── database/                 # SQL scripts for table creation and initial data
 │   ├── bank_schema.sql
 │   └── sample_data.sql
 │
 └── README.md                 # Project documentation
+```
 ---
